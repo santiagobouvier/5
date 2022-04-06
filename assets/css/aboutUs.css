@@ -1,0 +1,44 @@
+.img-about-us img{
+    width: 300px;
+    margin-top: 250px;
+    border-radius: 20px;
+    box-shadow: gainsboro 0px 10px 20px 1px;
+}
+
+.text-about-us p{
+    float: right;
+    display: flex;
+    align-items: center;
+    word-break:break-all;
+    margin: 0 0 1em 1em;
+    width: 100%;
+    color: black;
+}
+
+.text-about-us{
+    margin-top: 200px;
+    width: 100%;
+  }
+
+ @media(max-width:750px){
+    .img-about-us img{
+        display:block;
+        margin: auto;
+        width: 300px;
+        margin-top: 150px;
+        border-radius: 20px;
+    }
+
+    .video-overlay p{
+        text-align: center;
+        word-break:break-all;
+        width: 100%;
+        color: black;
+
+    }
+    .text-about-us{
+        width: 100%;
+        margin-top: 50px;
+        margin-right: 20px;
+      }
+ } 
